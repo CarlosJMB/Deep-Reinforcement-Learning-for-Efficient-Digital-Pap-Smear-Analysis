@@ -77,10 +77,6 @@ In order to run the model, the following information should be taken into accoun
   ````
 
 #### Running and testing the model.
-
-````
-  $ python inference.py
-````
 ## Environment
 
 ### PPO folder
@@ -102,6 +98,11 @@ Before running the code, make sure all the directions and needed models are corr
   $ python runPPO.py 
   ````
 ### Results
+
+
+````
+  $ python inference.py
+````
 
 
 
