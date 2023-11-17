@@ -45,7 +45,7 @@ The following drive link contains both the classification and detection trained 
 Both folders contain your images for both training and validation with a total of 4000 training images and 800 validation images.
 
 ## CNNs Usage
-###Cell Detection Model 
+### Cell Detection Model 
 
 In order to run the model, the following information should be taken into account:
 
