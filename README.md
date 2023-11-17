@@ -85,7 +85,8 @@ In order to run the model, the following information should be taken into accoun
 
 ### PPO folder
 In order to understand the usage of the environment is important to know the following information about the files in the folder.
-####Folrder information
+
+#### Folrder information
 
 1.  **base** folder which contains the images for testing the environment and agents.
 2.  **Cells_colab0.992_epo56** folder which contains the Cell Detection Model, which is used for defining the reward function.
@@ -102,7 +103,11 @@ Before running the code, make sure all the directions and needed models are corr
   $ python runPPO.py 
   ````
 ### Results
-Testing the four agents using the tracking file.
+
+*Testing the four agents using the tracking file.
+
 ![Results_tracking](PPO/Results/11M_third_environment.png)
-Testing an agent implementing the Cell Classifier Model. 
+
+*Testing an agent implementing the Cell Classifier Model.  
+
 ![Results_tracking](PPO/Results/final_test_1.png)
