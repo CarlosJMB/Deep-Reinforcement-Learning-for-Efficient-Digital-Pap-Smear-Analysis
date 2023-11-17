@@ -104,10 +104,10 @@ Before running the code, make sure all the directions and needed models are corr
   ````
 ### Results
 
-*Testing the four agents using the tracking file.
+Testing the four agents using the tracking file.
 
 ![Results_tracking](PPO/Results/11M_third_environment.png)
 
-*Testing an agent implementing the Cell Classifier Model.  
+Testing an agent implementing the Cell Classifier Model.  
 
 ![Results_tracking](PPO/Results/final_test_1.png)
