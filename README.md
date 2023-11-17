@@ -1,7 +1,7 @@
 # Deep Reinforcement Learning for Efficient Digital Pap Smear Analysis
 
 ## Overview
-This paper proposes an automated screening for pap smear tests using Deep Reinforcement Learning, Deep learning techniques. The environment is generated using images retrived from Mendeley Reposiroty and using Open-AI-GYM API for the structure. The cell classifier model is  implemented using a pre-trained convolutional neural network, ResNet50,  this will allow us to obtain better results and a CNN with more accurate predictions when classify malignant cells that could lead to cervical cancer.
+This paper proposes an automated screening for pap smear tests using Deep Reinforcement Learning and deep learning techniques. The environment is generated using images retrieved from Mendeley Repository and using Open-AI-GYM API for the structure. The cell classifier model is  implemented using a pre-trained convolutional neural network, ResNet50,  this will allow us to obtain better results and a CNN with more accurate predictions when classifying malignant cells that could lead to cervical cancer.
 
 ## Requirements
 
@@ -75,8 +75,12 @@ In order to run the model, the following information should be taken into accoun
  ````
   $ python train.py --epochs "# of epochs"
   ````
-
 #### Running and testing the model.
+
+````
+  $ python inference.py
+````
+
 ## Environment
 
 ### PPO folder
@@ -98,12 +102,6 @@ Before running the code, make sure all the directions and needed models are corr
   $ python runPPO.py 
   ````
 ### Results
-
-
-````
-  $ python inference.py
-````
-
 
 
 ### Images
