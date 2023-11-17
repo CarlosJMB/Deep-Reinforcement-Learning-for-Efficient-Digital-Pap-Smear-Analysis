@@ -45,7 +45,7 @@ The following drive link contains both the classification and detection trained 
 Both folders contain your images for both training and validation with a total of 4000 training images and 800 validation images.
 
 ## CNNs Usage
-###Cell Decetion Model 
+###Cell Detection Model 
 
 In order to run the model, the following information should be taken into account:
 
@@ -69,14 +69,14 @@ In order to run the model, the following information should be taken into accoun
      ````
   3. **model50.py**: This file generate the ResNet50 architecture.
   4. **train.py**: This file calls the previously mentioned files for starting the training.
-  5. **inference.py**: This file classifies the images into four different categories. The dataset used in this file is in the folder named DB_4 and its folder is named validation. Additionally, the code in the file assess the model using some metrics such as Precision, Recall and F1 score. 
+  5. **inference.py**: This file classifies the images into four different categories. The dataset used in this file is in the folder named DB_4 and its folder is named validation. Additionally, the code in the file assesses the model using some metrics such as Precision, Recall, and F1 score. 
 
 #### Train a model 
  ````
   $ python train.py --epochs "# of epochs"
   ````
 
-#### Running and testing the model..
+#### Running and testing the model.
 
  ````
   $ python inference.py 
@@ -84,19 +84,19 @@ In order to run the model, the following information should be taken into accoun
 ##Environment
 
 ###PPO folder
-In order to understand the usage of the environment is important to knwo the following infromation about the files in the folder.
+In order to understand the usage of the environment is important to know the following information about the files in the folder.
 ####Folrder information
 
 1.  **base** folder which contains the images for testing the environment and agents.
 2.  **Cells_colab0.992_epo56** folder which contains the Cell Detection Model, which is used for defining the reward function.
-3.  **env.py** file is where the environment is constructed and it follows the strcucture defined for GYM-API
+3.  **env.py** file is where the environment is constructed and it follows the structure defined for GYM-API
 4.  **runPPO.py** file contains the code for running the agents.
 5.  **test_env.py** file contains the code for testing the behavior of the environment without using any trained agent.
 6.  **tracking.py** file contains the code for tracking the movements of the agents during the testing stage. 
-7.  **trainingPPO.py** file contrains the code for training the agents.
+7.  **trainingPPO.py** file contains the code for training the agents.
 
 ###Usage
-Befor running code, make sure all the directions and needed models are correctly located. 
+Before running the code, make sure all the directions and needed models are correctly located. 
 
  ````
   $ python runPPO.py 
@@ -111,6 +111,3 @@ Image:
 
 ![](https://pandao.github.io/editor.md/examples/images/4.jpg)
 
-**Table of Contents**
-
-[TOC]
