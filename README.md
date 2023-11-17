@@ -78,12 +78,12 @@ In order to run the model, the following information should be taken into accoun
 
 #### Running and testing the model.
 
- ````
-  $ python inference.py 
-  ````
-##Environment
+````
+  $ python inference.py
+````
+## Environment
 
-###PPO folder
+### PPO folder
 In order to understand the usage of the environment is important to know the following information about the files in the folder.
 ####Folrder information
 
@@ -95,17 +95,17 @@ In order to understand the usage of the environment is important to know the fol
 6.  **tracking.py** file contains the code for tracking the movements of the agents during the testing stage. 
 7.  **trainingPPO.py** file contains the code for training the agents.
 
-###Usage
+### Usage
 Before running the code, make sure all the directions and needed models are correctly located. 
 
  ````
   $ python runPPO.py 
   ````
-###Results
+### Results
 
 
 
-###Images
+### Images
 
 Image:
 
